@@ -1,5 +1,33 @@
 # Синхронизация OpenCode с Obsidian и GitHub
 
+## ⚠️ ВАЖНО — Для AI (меня)
+
+**После каждого значимого ответа** ты ДОЛЖЕН сохранить мысли и ответ в Obsidian:
+
+1. **Сохранить мысли (thinking):**
+```powershell
+python "$env:USERPROFILE\.local\bin\opencode-obsidian-logger.py" --type thinking --content "Текст мысли" --title "Краткое название"
+```
+
+2. **Сохранить ответ (answer):**
+```powershell
+python "$env:USERPROFILE\.local\bin\opencode-obsidian-logger.py" --type answer --content "Текст ответа" --title "Краткое название"
+```
+
+3. **Также записывай действия в AI_Memory:**
+```powershell
+& "$env:USERPROFILE\Documents\AI_Memory\log-action.ps1" -action "Описание действия"
+```
+
+4. **Синхронизируй с GitHub после изменений:**
+```powershell
+powershell -File "C:\Users\ApaT\Documents\AI_Memory\sync.ps1"
+```
+
+**Не жди пока пользователь попросит — делай это сам после каждого значимого действия!**
+
+---
+
 ## Обзор
 
 OpenCode синхронизируется с двумя системами:
