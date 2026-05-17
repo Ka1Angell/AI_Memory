@@ -1,23 +1,23 @@
-# AI Memory — Schema
+# AI Memory — Схема
 
-## First read
-`Mind/_about` · `Mind/_now` · `Mind/_map`
+## Сначала читать
+`Память/Обо мне` · `Память/Сейчас` · `Память/Словарь`
 
-## Structure
-| Path | Purpose |
-|------|---------|
-| `Inbox/` | Quick capture |
-| `Mind/` | AI-maintained knowledge |
-| `Mind/Decisions/` | Notable decisions |
-| `Mind/Rigs/` | Game & tool configs |
-| `Mind/Stack/` | Software references |
-| `Sessions/` | Chat logs (auto) |
-| `Journal/` | AI action log (auto) |
-| `Goals/` | Tasks |
+## Структура
+| Папка | Назначение |
+|-------|------------|
+| `Входящие/` | Быстрый захват |
+| `Память/` | Знания (ведёт AI) |
+| `Память/Решения/` | Важные решения |
+| `Память/Настройки/` | Конфиги игр и софта |
+| `Память/Инструменты/` | Справочник программ |
+| `Сессии/` | История чатов (авто) |
+| `Лог/` | Действия AI (авто) |
+| `Цели/` | Задачи |
 
-## Rules
-- Extract insights from sessions → `Mind/`
-- Update `Mind/_now` when context shifts
-- Write decisions to `Mind/Decisions/`
+## Правила
+- Извлекать полезное из сессий → `Память/`
+- Обновлять `Сейчас` при смене контекста
+- Решения → `Решения/`
 - Frontmatter: `type` · `status` · `created` · `updated`
-- Sync after every session
+- Синхронизация после каждой сессии

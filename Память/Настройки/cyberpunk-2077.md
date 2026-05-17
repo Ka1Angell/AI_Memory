@@ -8,7 +8,7 @@ created: 2026-05-17
 
 **GPU:** RTX 3050 4GB  
 **DLSS:** Quality  
-**Shadows:** Medium  
-**Textures:** Medium  
-**RT:** Off  
-**Target:** 60-70 FPS
+**Тени:** Medium  
+**Текстуры:** Medium  
+**RT:** Выкл  
+**Цель:** 60-70 FPS

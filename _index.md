@@ -5,11 +5,9 @@ updated: 2026-05-17
 
 # AI Memory
 
-**mind** · [[Mind/_about|about]] [[Mind/_now|now]] [[Mind/_map|map]]  
-[[Inbox/|inbox]] · [[Sessions/|sessions]] · [[Journal/|journal]] · [[Goals/|goals]]
+**память** · [[Память/Обо мне|обо мне]] [[Память/Сейчас|сейчас]] [[Память/Словарь|словарь]]  
+[[Входящие/|входящие]] · [[Сессии/|сессии]] · [[Лог/|лог]] · [[Цели/|цели]]
 
 ---
 
-> You are the average of the 5 people you spend the most time with — and the 5 tools you use most.
-
-[[Mind/Decisions/|decisions]] · [[Mind/Rigs/|rigs]] · [[Mind/Stack/|stack]]
+[[Память/Решения/|решения]] · [[Память/Настройки/|настройки]] · [[Память/Инструменты/|инструменты]]
